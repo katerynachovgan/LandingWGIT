@@ -501,12 +501,13 @@ height: 380px;
 }
 
 .reviews__item {
-    padding-left: 205px;
+    padding-left: 255px;
     position: relative;
 }
 
 .reviews__photo{
     border: 2px solid #95e1d3;
+    border-radius: 50%;
 
     position: absolute;
     top: 0;
