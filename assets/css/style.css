@@ -730,6 +730,11 @@ height: 380px;
     display: flex;
 }
 
+.blog__item{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .blog__header{
     position: relative;
     margin-bottom: 10px;
