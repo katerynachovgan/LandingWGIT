@@ -819,7 +819,6 @@ hr {
     background: url(../images/map/map-bg.jpg) center no-repeat;
     background-size: cover;
     margin-bottom: 40px;
-    max-width: 1280px;
 }
 
 .map__item {
