@@ -877,6 +877,7 @@ hr {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .footer__col-first {
@@ -1041,6 +1042,14 @@ hr {
 
 /*INSTAGRAM*/
 
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.instagram__item {
+    padding: 0 2px;
+}
 
 
 /*copyright*/
