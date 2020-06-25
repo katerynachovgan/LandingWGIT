@@ -869,21 +869,24 @@ hr {
 /*FOOTER*/
 
 .footer {
+    margin-top: 100px;
     background-color: #f8f8f8;
 }
 
 .footer__inner {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-top: 80px;
 }
 
 .footer__col-first {
     width: 45%;
+    margin-right: 50px;
 }
 
 .footer__col-second {
     width: 30%;
+    margin-right: 50px;
 }
 
 .footer__col-third {
@@ -897,28 +900,28 @@ hr {
     font-weight: 700;
 }
 
-.footer__text{
+.footer__text {
     margin-bottom: 30px;
     font-size: 16px;
     color: #999;
 }
 
-.footer__social{
+.footer__social {
     margin-bottom: 30px;
 }
 
-.footer__social-header{
+.footer__social-header {
     padding-bottom: 15px;
     font-size: 14px;
     color: #333;
     border-bottom: 1px solid #e5e5e5;
 }
 
-.footer__social-header b{
+.footer__social-header b {
     font-size: 18px;
 }
 
-.footer__social-content{
+.footer__social-content {
     padding-top: 15px;
     font-size: 18px;
     color: #999;
@@ -926,7 +929,7 @@ hr {
     font-weight: 300;
 }
 
-.footer__social-content a{
+.footer__social-content a {
     display: inline-block;
     vertical-align: middle;
     font-size: 20px;
@@ -935,14 +938,14 @@ hr {
     text-decoration: none;
 }
 
-.subscribe{
+.subscribe {
     height: 40px;
     width: 100%;
     max-width: 400px;
     display: flex;
 }
 
-.subscribe__input{
+.subscribe__input {
     width: 60%;
     padding: 10px;
 
@@ -957,16 +960,16 @@ hr {
     font-style: italic;
 }
 
-.subscribe__input ::placeholder{
+.subscribe__input ::placeholder {
     color: #999999;
 }
 
-.subscribe__input:focus{
+.subscribe__input:focus {
     outline: 0;
     border-color: #95e1d3;
 }
 
-.subscribe__btn{
+.subscribe__btn {
     width: 40%;
     padding: 10px 30px;
 
@@ -974,7 +977,7 @@ hr {
     color: white;
     border: 0;
     cursor: pointer;
-    
+
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -982,18 +985,62 @@ hr {
     transition: background 0.2s linear;
 }
 
-.subscribe__btn:hover{
+.subscribe__btn:hover {
     background-color: #74c2b4;
 }
 
-.subscribe__btn:focus{
+.subscribe__btn:focus {
     outline: 0;
 }
 
 /*BLOGS*/
 
+.footer__title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.blogs__item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.blogs__item img {
+    width: 40%;
+    height: 40%;
+    margin-right: 20px;
+}
+
+.blogs__content {
+    padding-top: 10px;
+}
+
+.blogs__content a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+
+    padding-bottom: 15px;
+}
+
+.blogs__date {
+    padding-top: 10px;
+
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 100;
+    font-style: normal;
+    color: #999;
+}
 
 /*INSTAGRAM*/
+
 
 
 /*copyright*/
