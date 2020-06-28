@@ -3,6 +3,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -24,9 +28,9 @@ hr {
 
 /* Header*/
 .container {
-
+    padding: 0 15px;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1230px;
     margin: 0 auto;
 }
 
@@ -111,7 +115,7 @@ hr {
 }
 
 .intro__title {
-    font-size: 150px;
+    font-size: 110px;
     font-weight: 700;
     text-transform: uppercase;
     color: white;
@@ -129,9 +133,9 @@ hr {
 
 .intro__uptitle {
     color: honeydew;
-    font-size: 72px;
-    font-family: "Kaushan Script", sans-serif;
-    margin-bottom: 20px;
+    font-size: 58px;
+    font-family:'Kaushan Script', cursive;
+    margin-top: 100px;
     text-transform: uppercase;
 }
 
@@ -157,9 +161,8 @@ hr {
 /*slider*/
 
 .slider {
-    width: 100%;
-    margin-top: 100px;
-    padding: 20px;
+    margin-top: 270px;
+    padding: 5px;
 }
 
 .slider__inner {
@@ -201,6 +204,8 @@ hr {
     font-size: 22px;
 }
 
+/*section*/
+
 .section {
     padding: 80px 0;
 }
@@ -227,7 +232,7 @@ hr {
 .section__uptitle {
     font-size: 20px;
     color: #333;
-    font-family: sans-serif;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .section__title {
@@ -444,11 +449,11 @@ hr {
     border: 1px solid #e5e5e5;
 }
 
-.accordion__item.active.accordion__content {
+.accordion__item.active .accordion__content {
     display: block;
 }
 
-.accordion__item.active.accordion__header::after {
+.accordion__item.active .accordion__header::after {
     transform: translateY(-50%) rotate(-45deg);
     margin-top: 5px;
 }
@@ -465,11 +470,14 @@ hr {
     display: block;
     width: 20px;
     height: 20px;
+
     border-top: 2px solid #ccc;
     border-right: solid 2px #ccc;
+    
     position: absolute;
     top: 50%;
     right: 20px;
+    
     z-index: 1;
     transform: translateY(-50%) rotate(135deg);
 }
@@ -897,7 +905,7 @@ hr {
 .footer__logo {
     margin-bottom: 30px;
     font-size: 50px;
-    color: #333;
+    color: #999;
     font-weight: 700;
 }
 
@@ -1064,4 +1072,42 @@ hr {
 
 .copyright span {
     color: #f38181;
+}
+
+@media (max-width: 1230px){
+/*Intro*/
+
+.intro__uptitle{
+    font-size: 48px;
+}
+
+.intro__title{
+    font-size: 100px;
+}
+}
+
+@media (max-width: 990px){
+    /*Intro*/
+    .intro__uptitle{
+        font-size: 60px;
+    }
+    
+    .intro__title{
+        font-size: 99px;
+    }
+}
+
+@media (max-width: 770px){
+   
+}
+
+@media (max-width: 575px){
+    /*Intro*/
+    .intro__uptitle{
+        font-size: 32px;
+    }
+    
+    .intro__title{
+        font-size: 60px;
+    }
 }
