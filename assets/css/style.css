@@ -383,14 +383,18 @@ hr {
 
 .services {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .services__item {
-    flex: 1 1 0;
-    padding-left: 85px;
-    padding-right: 35px;
+    width: 33.33333%;
+    padding: 60px 35px 85px;
 
     position: relative;
+}
+
+.services__item:nth-child(-n+3) {
+    border-bottom: 1px solid #999;
 }
 
 .services__icon {
@@ -398,7 +402,7 @@ hr {
     height: 30px;
 
     position: absolute;
-    left: 30px;
+    left: 0px;
     z-index: 1;
 }
 
@@ -1074,118 +1078,4 @@ hr {
 
 .copyright span {
     color: #f38181;
-}
-
-@media (max-width: 1230px) {
-    /*Intro*/
-
-    .intro__uptitle {
-        font-size: 48px;
-    }
-
-    .intro__title {
-        font-size: 100px;
-    }
-}
-
-@media (max-width: 990px) {
-
-    /*Intro*/
-    .intro__uptitle {
-        font-size: 60px;
-    }
-
-    .intro__title {
-        font-size: 99px;
-    }
-
-    /*Statistics*/
-
-    .stat_item{
-        flex: none;
-        width: 33.33333%;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        border: 0ch;
-    }
-
-    .stat_item:last-child{
-        border-right: 0ch;
-    }
-}
-
-
-@media (max-width: 770px) {
-
-    /*BLOCK*/
-    .nav {
-        display: none;
-    }
-
-    /*slider*/
-
-    .slider__item.active::before{
-        width: 50%;
-    }
-
-    /*card*/
-
-    .card{
-        margin-top: 50px;
-        justify-content: center;
-    }
-
-    .card__item{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-
-    .card__item:last-child{
-        border-bottom: 0;
-    }
-
-}
-
-@media (max-width: 575px) {
-
-    /*Intro*/
-    .intro__uptitle {
-        font-size: 32px;
-    }
-
-    .intro__title {
-        font-size: 60px;
-    }
-
-    /*SECTION*/
-
-    .section__header {
-        margin-bottom: 50px;
-    }
-
-    .section__title {
-        font-size: 25px;
-    }
-
-    .section__uptitle {
-        font-size: 20px;
-    }
-
-    .section__title::after {
-        margin: 20px auto;
-    }
-
-    /*statistics*/
-
-    .stat_item{
-        width: 100%;
-        border-bottom: 1px solid #c9c6c6;
-    }
-    .stat_item:last-child{
-        border-bottom: 0ch;
-    }
-
-    .stat_num{
-        font-size: 52px;
-    }
 }
