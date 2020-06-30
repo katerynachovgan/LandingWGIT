@@ -1,0 +1,176 @@
+@media (max-width: 1230px) {
+
+    /*HEADER*/
+    .header__logo {
+        font-size: 50px;
+    }
+
+    .nav {
+        font-size: 25px;
+    }
+
+    /*Intro*/
+
+    .intro__uptitle {
+        font-size: 48px;
+    }
+
+    .intro__title {
+        font-size: 100px;
+    }
+
+    .intro__title::after {
+        margin: 50px auto;
+    }
+
+    /*SLIDER*/
+    .slider {
+        margin-top: 100px;
+    }
+
+    /*SECTION*/
+    .section__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 990px) {
+
+    /*Intro*/
+    .intro__uptitle {
+        font-size: 50px;
+    }
+
+    .intro__title {
+        font-size: 90px;
+    }
+
+    /*Statistics*/
+
+    .stat_item {
+        flex: none;
+        width: 33.33333%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: 0ch;
+    }
+
+    .stat_item:last-child {
+        border-right: 0ch;
+    }
+
+    /*SERVICES*/
+    .services__item {
+        width: 50%;
+    }
+
+    .services__item:nth-child(4) {
+        border-bottom: 1px solid #999;
+    }
+
+    .services__icon {
+        left: 0em;
+    }
+
+}
+
+
+
+@media (max-width: 770px) {
+
+    /*BLOCK*/
+    .nav {
+        display: none;
+    }
+
+    /*slider*/
+
+    .slider__item::before {
+        width: 50%;
+    }
+
+    /*card*/
+
+    .card {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .card__item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .card__item:last-child {
+        border-bottom: 0;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    /*Intro*/
+    .intro__uptitle {
+        font-size: 32px;
+    }
+
+    .intro__title {
+        font-size: 60px;
+    }
+
+    /*SECTION*/
+
+    .section__header {
+        margin-bottom: 50px;
+    }
+
+    .section__title {
+        font-size: 25px;
+    }
+
+    .section__uptitle {
+        font-size: 20px;
+    }
+
+    .section__title::after {
+        margin: 20px auto;
+    }
+
+    /*statistics*/
+
+    .stat_item {
+        width: 100%;
+        border-bottom: 1px solid #c9c6c6;
+    }
+
+    .stat_item:last-child {
+        border-bottom: 0ch;
+    }
+
+    .stat_num {
+        font-size: 52px;
+    }
+
+    /*SERVICES*/
+    .services__item {
+        width: 100%;
+    }
+
+    .services__item:nth-child(4) {
+        border-bottom: 1px solid #999;
+    }
+
+    .services__item:nth-child(5) {
+        border-bottom: 1px solid #999;
+    }
+
+    .services__title {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .services__text {
+        font-size: 17px;
+        padding-top: 10px;
+    }
+}
