@@ -427,6 +427,8 @@ hr {
 
 .devices__item {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .devices__item--iphone {
@@ -440,10 +442,19 @@ hr {
 
 .wedo {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
 }
 
 .wedo__item {
     width: 50%;
+    padding: 0 15px;
+}
+
+.wedo__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /*Accordion*/
@@ -523,6 +534,10 @@ hr {
 }
 
 .reviews__photo {
+    display: block;
+    width: 145px;
+    height: 145px;
+
     border: 2px solid #95e1d3;
     border-radius: 50%;
 
@@ -618,7 +633,11 @@ hr {
 .logos {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logos__item {
+    text-align: center;
 }
 
 /*WORKS*/
