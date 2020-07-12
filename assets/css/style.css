@@ -644,15 +644,15 @@ hr {
 
 .works {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .works__col {
-    flex: 1 1 0;
+    width: 25%;
 }
 
 .works__item {
     position: relative;
-
     background: linear-gradient(to bottom, #f38181, #fce38a);
 }
 
@@ -759,11 +759,12 @@ hr {
 
 .blog {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .blog__item {
-    margin-right: 10px;
-    margin-left: 10px;
+    width: 33.33333%;
+    padding: 0 10px;
 }
 
 .blog__header {
@@ -907,18 +908,19 @@ hr {
 .footer__inner {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 80px;
     padding-bottom: 50px;
 }
 
 .footer__col-first {
     width: 45%;
-    margin-right: 50px;
+    padding-right: 15px;
 }
 
 .footer__col-second {
     width: 30%;
-    margin-right: 50px;
+    padding-right: 15px;
 }
 
 .footer__col-third {

@@ -90,6 +90,20 @@
         padding-left: 170px;
     }
 
+    /*FOOTER*/
+    .footer__col-first {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .footer__col-second {
+        width: 70%;
+    }
+
+    .footer__col-third {
+        width: 30%;
+    }
+
 }
 
 
@@ -155,6 +169,64 @@
         width: 33.33333%;
         padding-bottom: 15px;
     }
+
+    /*WORKS*/
+    .works {
+        margin-top: 30px;
+    }
+
+    .works__col {
+        width: 50%;
+    }
+
+    /*CLIENTS*/
+    .clients__item {
+        flex: none;
+        width: 100%;
+    }
+
+    .clients__photo {
+        top: -10px;
+        left: 4px;
+    }
+
+    /*BLOG*/
+    .blog__item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .blog__photo {
+        width: 100%;
+    }
+
+    .blog__title {
+        font-size: 20px;
+    }
+
+    .blog__text {
+        font-size: 19px;
+    }
+
+    .blog__footer {
+        font-size: 20px;
+    }
+
+    /*FOOTER*/
+    .footer__col-first {
+        width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .footer__col-second {
+        width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .footer__col-third {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 575px) {
@@ -259,4 +331,58 @@
         width: 50%;
     }
 
+    /*WORKS*/
+    .works__col {
+        width: 100%;
+    }
+
+    .works__image {
+        width: 100%;
+        height: auto;
+    }
+
+    /*CLIENTS*/
+    .clients__item {
+        padding: 0;
+        margin-bottom: 60px;
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .clients__photo {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .clients__name {
+        text-align: center;
+    }
+
+    .clients__prof {
+        text-align: center;
+    }
+
+    .clients__prof::after {
+        margin: 15px auto 0;
+    }
+
+    /*FOOTER*/
+    .subscribe {
+        max-width: 550px;
+        display: block;
+    }
+
+    .subscribe__input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscribe__btn {
+        width: 100%;
+    }
+
+    .blogs__item img {
+        width: 25%;
+    }
 }
