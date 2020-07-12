@@ -6,6 +6,7 @@ body {
 *,
 *::before,
 *::after {
+
     box-sizing: border-box;
 }
 
@@ -137,6 +138,7 @@ hr {
     color: honeydew;
     font-size: 58px;
     font-family: 'Kaushan Script', cursive;
+
     margin-top: 100px;
     text-transform: uppercase;
 }
@@ -487,7 +489,7 @@ hr {
     height: 20px;
 
     border-top: 2px solid #ccc;
-    border-right: solid 2px #ccc;
+    border-right: 2px solid #ccc;
 
     position: absolute;
     top: 50%;

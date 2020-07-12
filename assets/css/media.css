@@ -90,6 +90,7 @@
         padding-left: 170px;
     }
 
+
     /*FOOTER*/
     .footer__col-first {
         width: 100%;
@@ -103,7 +104,6 @@
     .footer__col-third {
         width: 30%;
     }
-
 }
 
 
@@ -169,7 +169,6 @@
         width: 33.33333%;
         padding-bottom: 15px;
     }
-
     /*WORKS*/
     .works {
         margin-top: 30px;
@@ -226,7 +225,6 @@
     .footer__col-third {
         width: 100%;
     }
-
 }
 
 @media (max-width: 575px) {
