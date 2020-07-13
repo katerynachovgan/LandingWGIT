@@ -38,11 +38,11 @@
 
     /*Intro*/
     .intro__uptitle {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .intro__title {
-        font-size: 90px;
+        font-size: 70px;
     }
 
     /*Statistics*/
@@ -109,30 +109,47 @@
 
 
 @media (max-width: 770px) {
-
+    /*HEADER*/
+    .header{
+        padding: 10px 0;
+    }
     /*BLOCK*/
     .nav {
         display: none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 100%;
+
+        background-color: #28475b;
+    }
+    .nav__link {
+        display: block;
+        margin: 0;
+        padding: 8px 20px;
+    }
+    .nav__toggle{
+        display: block;
+    }
+    /*intro*/
+    .intro {
+        min-height: 650px;
     }
 
     /*slider*/
-
-    .slider__item::before {
-        width: 100%;
+    .slider__text {
+        display: none;
     }
 
     /*card*/
-
     .card {
         margin-top: 50px;
         justify-content: center;
     }
-
     .card__item {
         width: 100%;
         margin-bottom: 30px;
     }
-
     .card__item:last-child {
         border-bottom: 0;
     }
@@ -169,6 +186,7 @@
         width: 33.33333%;
         padding-bottom: 15px;
     }
+
     /*WORKS*/
     .works {
         margin-top: 30px;
@@ -241,10 +259,6 @@
 
     .intro__title {
         font-size: 60px;
-    }
-    /*Slider*/
-    .slider{
-        display: none;
     }
 
     /*SECTION*/
