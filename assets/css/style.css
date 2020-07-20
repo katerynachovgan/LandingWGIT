@@ -57,6 +57,9 @@ hr {
 
     transform: translate3d(0,0,0);
 }
+header.active{
+    background-color: #f99276;
+}
 
 .header__inner {
     display: flex;
@@ -156,6 +159,18 @@ hr {
 }
 .nav__toggle__item::after{
     bottom: -8px;
+}
+.nav__toggle.active .nav__toggle__item{
+    background: none;
+}
+.nav__toggle.active .nav__toggle__item::after{
+    transform-origin: left bottom;
+transform: rotate(-45deg) translate3d(0px, 3px, 0);
+}
+.nav__toggle.active .nav__toggle__item::before{
+    transform-origin: left top;
+    transform: rotate(45deg) translate3d(0px, -3px, 0);
+
 }
 /*intro*/
 .intro {

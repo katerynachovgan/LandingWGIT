@@ -115,18 +115,21 @@
     }
     /*BLOCK*/
     .nav {
-        display: none;
+      display:none
         width: 100%;
         position: absolute;
         left: 0;
         top: 100%;
 
-        background-color: #28475b;
+        background-color: #f99276;
     }
     .nav__link {
         display: block;
         margin: 0;
         padding: 8px 20px;
+    }
+    .header{
+        padding-top: 10px;
     }
     .nav__toggle{
         display: block;
