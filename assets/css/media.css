@@ -1,0 +1,407 @@
+@media (max-width: 1230px) {
+
+    /*HEADER*/
+    .header__logo {
+        font-size: 50px;
+    }
+
+    .nav {
+        font-size: 17px;
+    }
+
+    /*Intro*/
+
+    .intro__uptitle {
+        font-size: 48px;
+    }
+
+    .intro__title {
+        font-size: 100px;
+    }
+
+    .intro__title::after {
+        margin: 50px auto;
+    }
+
+    /*SLIDER*/
+    .slider {
+        margin-top: 100px;
+    }
+
+    /*SECTION*/
+    .section__text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 990px) {
+
+    /*Intro*/
+    .intro__uptitle {
+        font-size: 30px;
+    }
+
+    .intro__title {
+        font-size: 70px;
+    }
+
+    /*Statistics*/
+    .stat {
+        justify-content: center;
+    }
+
+    .stat_item {
+        flex: none;
+        width: 33.33333%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border: 0ch;
+    }
+
+    .stat_item:last-child {
+        border-right: 0ch;
+    }
+
+    /*SERVICES*/
+    .services__item {
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .services__item:nth-child(4) {
+        border-bottom: 1px solid #999;
+    }
+
+    .services__icon {
+        left: 0em;
+    }
+
+    /*reviews*/
+    .reviews {
+        padding: 0 60px;
+    }
+
+    .reviews__photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .reviews__item {
+        padding-left: 170px;
+    }
+
+
+    /*FOOTER*/
+    .footer__col-first {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .footer__col-second {
+        width: 70%;
+    }
+
+    .footer__col-third {
+        width: 30%;
+    }
+}
+
+
+
+@media (max-width: 770px) {
+    /*HEADER*/
+    .header{
+        padding: 10px 0;
+    }
+    /*BLOCK*/
+    .nav {
+      display:none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 100%;
+
+        background-color:  #c5e1ee;
+    }
+    .nav__link {
+        display: inline-block;
+        margin: 0;
+        padding: 8px 20px;
+    }
+    .header{
+        padding-top: 10px;
+    }
+    .nav__toggle{
+        display: block;
+    }
+    /*intro*/
+    .intro {
+        min-height: 650px;
+    }
+
+    /*slider*/
+    .slider__text {
+        display: none;
+    }
+
+    /*card*/
+    .card {
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .card__item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .card__item:last-child {
+        border-bottom: 0;
+    }
+
+    /*WEDO*/
+    .wedo__item {
+        width: 100%;
+    }
+
+    .wedo__img {
+        margin: 15px auto 25px;
+    }
+
+    /*reviews*/
+    .reviews__photo {
+        position: static;
+        margin: 0 auto;
+    }
+
+    .reviews__item {
+        padding-left: 0;
+    }
+
+    .reviews__text {
+        font-size: 16px;
+    }
+
+    .reviews__author {
+        font-size: 16px;
+    }
+
+    /*logos*/
+    .logos__item {
+        width: 33.33333%;
+        padding-bottom: 15px;
+    }
+
+    /*WORKS*/
+    .works {
+        margin-top: 30px;
+    }
+
+    .works__col {
+        width: 50%;
+    }
+
+    /*CLIENTS*/
+    .clients__item {
+        flex: none;
+        width: 100%;
+    }
+
+    .clients__photo {
+        top: -10px;
+        left: 4px;
+    }
+
+    /*BLOG*/
+    .blog__item {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .blog__photo {
+        width: 100%;
+    }
+
+    .blog__title {
+        font-size: 20px;
+    }
+
+    .blog__text {
+        font-size: 19px;
+    }
+
+    .blog__footer {
+        font-size: 20px;
+    }
+
+    /*FOOTER*/
+    .footer__col-first {
+        width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .footer__col-second {
+        width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .footer__col-third {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /*HEADER*/
+    .header__logo {
+        font-size: 25px;
+    }
+
+    /*Intro*/
+    .intro__uptitle {
+        font-size: 32px;
+    }
+
+    .intro__title {
+        font-size: 60px;
+    }
+
+    /*SECTION*/
+
+    .section__header {
+        margin-bottom: 50px;
+    }
+
+    .section__title {
+        font-size: 25px;
+    }
+
+    .section__uptitle {
+        font-size: 20px;
+    }
+
+    .section__title::after {
+        margin: 20px auto;
+    }
+
+    /*statistics*/
+
+    .stat_item {
+        width: 100%;
+        border-bottom: 1px solid #c9c6c6;
+    }
+
+    .stat_item:last-child {
+        border-bottom: 0ch;
+    }
+
+    .stat_num {
+        font-size: 52px;
+    }
+
+    /*SERVICES*/
+    .services__item {
+        width: 100%;
+    }
+
+    .services__item:nth-child(4) {
+        border-bottom: 1px solid #999;
+    }
+
+    .services__item:nth-child(5) {
+        border-bottom: 1px solid #999;
+    }
+
+    .services__title {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .services__text {
+        font-size: 17px;
+        padding-top: 10px;
+    }
+
+    /*devices*/
+    .devices {
+        max-width: 320px;
+    }
+
+    .devices__item.devices__item--iphone {
+        width: 180px;
+        bottom: -50px;
+        right: -15px;
+    }
+
+    /*wedo*/
+    .wedo__img {
+        display: none;
+    }
+
+    /*reviews*/
+    .reviews {
+        padding: 0;
+    }
+
+    .reviews__btn {
+        top: 15%;
+    }
+
+    /*logos*/
+    .logos__item {
+        width: 50%;
+    }
+
+    /*WORKS*/
+    .works__col {
+        width: 100%;
+    }
+
+    .works__image {
+        width: 100%;
+        height: auto;
+    }
+
+    /*CLIENTS*/
+    .clients__item {
+        padding: 0;
+        margin-bottom: 60px;
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .clients__photo {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .clients__name {
+        text-align: center;
+    }
+
+    .clients__prof {
+        text-align: center;
+    }
+
+    .clients__prof::after {
+        margin: 15px auto 0;
+    }
+
+    /*FOOTER*/
+    .subscribe {
+        max-width: 550px;
+        display: block;
+    }
+
+    .subscribe__input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subscribe__btn {
+        width: 100%;
+    }
+
+    .blogs__item img {
+        width: 25%;
+    }
+}
