@@ -47,8 +47,9 @@ hr {
     z-index: 1000;
 }
 .header.fixed{
-    background-color: #f99276;
-    box-shadow: 0 3px 20px;
+    padding: 10px 0;
+    background-color: #c5e1ee;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 
     position: fixed;
     top: 0;
@@ -58,7 +59,7 @@ hr {
     transform: translate3d(0,0,0);
 }
 header.active{
-    background-color: #f99276;
+    background-color: #c5e1ee;
 }
 
 .header__inner {

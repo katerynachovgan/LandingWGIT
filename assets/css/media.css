@@ -6,7 +6,7 @@
     }
 
     .nav {
-        font-size: 25px;
+        font-size: 17px;
     }
 
     /*Intro*/
@@ -115,16 +115,16 @@
     }
     /*BLOCK*/
     .nav {
-      display:none
+      display:none;
         width: 100%;
         position: absolute;
         left: 0;
         top: 100%;
 
-        background-color: #f99276;
+        background-color:  #c5e1ee;
     }
     .nav__link {
-        display: block;
+        display: inline-block;
         margin: 0;
         padding: 8px 20px;
     }
